@@ -7,6 +7,13 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(PACKAGE_BUGREPORT "https://github.com/scanmem/scanmem/issues")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
+if(APPLE)
+    # macOS 特定配置
+    set(LIBTOOL_COMMAND glibtoolize)
+else()
+    set(LIBTOOL_COMMAND libtoolize)
+endif()
+
 # 编译选项
 add_compile_options(-Wall -Wextra)
 
@@ -54,6 +61,7 @@ test_big_endian(IS_BIG_ENDIAN)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 # 查找依赖库
 find_package(Readline REQUIRED)
+find_package(PkgConfig REQUIRED)
 
 # 配置头文件
 configure_file(config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)

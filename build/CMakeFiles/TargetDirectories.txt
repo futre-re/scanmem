@@ -4,7 +4,6 @@
 /home/alin/codework-scanmem/scanmem/build/CMakeFiles/install.dir
 /home/alin/codework-scanmem/scanmem/build/CMakeFiles/install/local.dir
 /home/alin/codework-scanmem/scanmem/build/CMakeFiles/install/strip.dir
-/home/alin/codework-scanmem/scanmem/build/src/CMakeFiles/util.dir
 /home/alin/codework-scanmem/scanmem/build/src/CMakeFiles/scanmem.dir
 /home/alin/codework-scanmem/scanmem/build/src/CMakeFiles/scanmem_cli.dir
 /home/alin/codework-scanmem/scanmem/build/src/CMakeFiles/edit_cache.dir

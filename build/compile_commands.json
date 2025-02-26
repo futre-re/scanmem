@@ -1,16 +1,6 @@
 [
 {
   "directory": "/home/alin/codework-scanmem/scanmem/build",
-  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/util.dir/common.c.o -c /home/alin/codework-scanmem/scanmem/src/common.c",
-  "file": "/home/alin/codework-scanmem/scanmem/src/common.c"
-},
-{
-  "directory": "/home/alin/codework-scanmem/scanmem/build",
-  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/util.dir/show_message.c.o -c /home/alin/codework-scanmem/scanmem/src/show_message.c",
-  "file": "/home/alin/codework-scanmem/scanmem/src/show_message.c"
-},
-{
-  "directory": "/home/alin/codework-scanmem/scanmem/build",
   "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/commands.c.o -c /home/alin/codework-scanmem/scanmem/src/commands.c",
   "file": "/home/alin/codework-scanmem/scanmem/src/commands.c"
 },

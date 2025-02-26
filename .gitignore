@@ -54,3 +54,7 @@ readline-*
 ncurses-*
 readline
 ncurses
+
+# CMake
+build/*
+.cache/*
