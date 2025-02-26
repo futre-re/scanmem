@@ -75,8 +75,3 @@ if(ENABLE_GUI)
     # add_subdirectory(gui) //todo:添加gui支持
     add_subdirectory(po)
 endif()
-
-# # 安装文档
-# install(FILES README.md DESTINATION ${CMAKE_INSTALL_DOCDIR})
-# install(FILES gpl-3.0.txt lgpl-3.0.txt DESTINATION ${CMAKE_INSTALL_DOCDIR})
-# install(FILES scanmem.1 DESTINATION ${CMAKE_INSTALL_MANDIR}/man1)
