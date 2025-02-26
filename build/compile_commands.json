@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/util.dir/common.c.o -c /home/alin/codework-scanmem/scanmem/src/common.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/common.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/util.dir/show_message.c.o -c /home/alin/codework-scanmem/scanmem/src/show_message.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/show_message.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/commands.c.o -c /home/alin/codework-scanmem/scanmem/src/commands.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/commands.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/ptrace.c.o -c /home/alin/codework-scanmem/scanmem/src/ptrace.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/ptrace.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/handlers.c.o -c /home/alin/codework-scanmem/scanmem/src/handlers.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/handlers.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/interrupt.c.o -c /home/alin/codework-scanmem/scanmem/src/interrupt.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/interrupt.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/maps.c.o -c /home/alin/codework-scanmem/scanmem/src/maps.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/maps.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/scanmem.c.o -c /home/alin/codework-scanmem/scanmem/src/scanmem.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/scanmem.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/scanroutines.c.o -c /home/alin/codework-scanmem/scanmem/src/scanroutines.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/scanroutines.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/sets.c.o -c /home/alin/codework-scanmem/scanmem/src/sets.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/sets.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/targetmem.c.o -c /home/alin/codework-scanmem/scanmem/src/targetmem.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/targetmem.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -Dscanmem_EXPORTS -I/home/alin/codework-scanmem/scanmem/build -g -fPIC -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem.dir/value.c.o -c /home/alin/codework-scanmem/scanmem/src/value.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/value.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIE -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem_cli.dir/menu.c.o -c /home/alin/codework-scanmem/scanmem/src/menu.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/menu.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIE -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem_cli.dir/main.c.o -c /home/alin/codework-scanmem/scanmem/src/main.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/main.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIE -Wall -Wextra -std=gnu17 -o src/CMakeFiles/scanmem_cli.dir/readline.c.o -c /home/alin/codework-scanmem/scanmem/src/readline.c",
+  "file": "/home/alin/codework-scanmem/scanmem/src/readline.c"
+},
+{
+  "directory": "/home/alin/codework-scanmem/scanmem/build",
+  "command": "/usr/bin/gcc -I/home/alin/codework-scanmem/scanmem/build -g -fPIE -Wall -Wextra -std=gnu99 -std=gnu17 -o test/CMakeFiles/memfake.dir/memfake.c.o -c /home/alin/codework-scanmem/scanmem/test/memfake.c",
+  "file": "/home/alin/codework-scanmem/scanmem/test/memfake.c"
+}
+]
