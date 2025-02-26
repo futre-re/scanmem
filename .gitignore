@@ -55,6 +55,17 @@ ncurses-*
 readline
 ncurses
 
-# CMake
-build/*
-.cache/*
+# CMake build artifacts
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CTestTestfile.cmake
+**/Testing/
+**/*.cmake
+**/*.cbp
+**/CMakeScripts/
+/.cmake/
+/build*/
+/_build*/
+/out*/
