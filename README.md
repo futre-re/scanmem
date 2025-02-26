@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/scanmem/scanmem/main/gui/GameConqueror_72x72.png)scanmem & GameConqueror
+# ![Scanmem](https://raw.githubusercontent.com/scanmem/scanmem/main/gui/GameConqueror_72x72.png)scanmem & GameConqueror
 
 [![Build Status](https://travis-ci.org/scanmem/scanmem.svg?branch=main)](https://travis-ci.org/scanmem/scanmem)
 [![Coverity Status](https://scan.coverity.com/projects/8565/badge.svg?flat=1")](https://scan.coverity.com/projects/scanmem)
@@ -13,10 +13,11 @@ variable and allows you to modify its value.
 ## GUI
 
 GameConqueror is a GUI front-end for scanmem, providing more features, such as:
-  * Flexible syntax for searching
-  * Easier and multiple variable locking
-  * Better process finder
-  * Memory browser/editor
+
+* Flexible syntax for searching
+* Easier and multiple variable locking
+* Better process finder
+* Memory browser/editor
 
 See [gui/README.md](gui/README.md) for more details.
 
@@ -28,11 +29,12 @@ mounted. GameConqueror requirements are documented in [gui/README.md](gui/README
 ## Documentation
 
 To read documentation:
-  * `man scanmem`
-  * `man gameconqueror`
-  * `scanmem --help`
-  * enter `help` at the scanmem prompt
-  * use the interactive help of GameConqueror
+
+* `man scanmem`
+* `man gameconqueror`
+* `scanmem --help`
+* enter `help` at the scanmem prompt
+* use the interactive help of GameConqueror
 
 ## Build Requirements
 
@@ -70,6 +72,6 @@ For more information, run:
 
     ./build_for_android.sh help
 
-## License: 
+## License
 
 GPLv3, LGPLv3 for libscanmem
