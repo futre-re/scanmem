@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(scanmem VERSION 0.18.0 LANGUAGES C)
 
 # 设置C标准
-set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(PACKAGE_BUGREPORT "https://github.com/scanmem/scanmem/issues")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)

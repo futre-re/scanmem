@@ -1,0 +1,34 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+/* 头文件检查 */
+#cmakedefine HAVE_FCNTL_H
+#cmakedefine HAVE_LIMITS_H
+#cmakedefine HAVE_STDDEF_H
+#cmakedefine HAVE_SYS_IOCTL_H
+#cmakedefine HAVE_SYS_TIME_H
+
+/* 函数检查 */
+#cmakedefine HAVE_GETLINE
+#cmakedefine HAVE_FGETLN
+#cmakedefine HAVE_SECURE_GETENV
+
+/* 特性检查 */
+#cmakedefine HAVE_PROCMEM @ENABLE_PROCMEM @
+
+/* 系统特性 */
+#cmakedefine IS_BIG_ENDIAN
+
+/* 类型检查 */
+#cmakedefine HAVE_SIGHANDLER_T
+
+#ifndef HAVE_SIGHANDLER_T
+typedef void (*sighandler_t)(int);
+#endif
+
+#define PACKAGE_BUGREPORT "@PACKAGE_BUGREPORT@"
+
+/* 版本信息 */
+#define PACKAGE_VERSION "@PROJECT_VERSION@"
+
+#endif /* CONFIG_H */
