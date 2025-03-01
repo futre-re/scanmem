@@ -8,7 +8,7 @@ memfake_pid=$!
 # Test runs
 
 test_sm () {
-    ../scanmem -p $memfake_pid -e -c "$1"
+    ../src/scanmem -p $memfake_pid -e -c "$1"
 }
 
 test_sm "option scan_data_type int8;0;exit"
